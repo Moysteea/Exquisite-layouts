@@ -1,6 +1,23 @@
 The tutorial includes several checkpoints:
 
 * [Blank slate][00]
+* [`layout: auto`][01a]
+* [`layout: auto` with 'lorem ipsum'][01b]
+* [`layout: fit` with 1 child component][02a]
+* [`layout: fit` with 2 children][02b]
+* [`layout: card` with 3 children][03]
+* [`Ext.TabPanel` with 3 children][04a]
+* [`Ext.TabPanel` with customized card switch transition][04b]
+* [`Ext.Carousel` with 3 children][05a]
+* [`Ext.Carousel` with `direction: 'vertical'`][05b]
+* [`layout: vbox`][06a]
+* [`layout: vbox` with `pack: 'center'`][06b]
+* [`layout: vbox` with `defaults: {flex: 1}`][06c]
+* [`layout: hbox` with `defaults: {flex: 1}`][06d]
+* [Traffic light carousels][07]
+* [Exquisite corpse game][08a]
+* [Exquisite corpse game with credits][08b]
+* [Exquisite corpse game with docked credits][08c]
 
 ## Using this repository to follow the screencast
 
