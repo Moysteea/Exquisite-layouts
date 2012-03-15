@@ -1,3 +1,5 @@
+Check out the [live demo][demo]!
+
 The tutorial includes several checkpoints:
 
 * [Blank slate][00]
@@ -19,7 +21,7 @@ The tutorial includes several checkpoints:
 * [Exquisite corpse game with credits][08b] ([view diff][08a-08b])
 * [Exquisite corpse game with docked credits][08c] ([view diff][08b-08c])
 
-## Using this repository to follow the screencast
+## Using this repository to [follow the screencast][video]
 
 First, you'll have to clone this repository:
 
@@ -49,6 +51,9 @@ By default, the git clone command will only create the master branch locally. If
     git checkout -b 08a_exquisite_corpse origin/08a_exquisite_corpse
     git checkout -b 08b_exquisite_corpse origin/08b_exquisite_corpse
     git checkout -b 08c_exquisite_corpse origin/08c_exquisite_corpse
+
+[demo]: http://senchalearn.github.com/Exquisite-layouts/
+[video]: https://vimeo.com/album/1846874/video/38128757
 
 [00]:   https://github.com/senchalearn/Exquisite-layouts/tree/00_blank_slate
 [01a]:  https://github.com/senchalearn/Exquisite-layouts/tree/01a_auto_layout
