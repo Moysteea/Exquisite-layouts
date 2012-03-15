@@ -1,23 +1,23 @@
 The tutorial includes several checkpoints:
 
 * [Blank slate][00]
-* [`layout: auto`][01a]
-* [`layout: auto` with 'lorem ipsum'][01b]
-* [`layout: fit` with 1 child component][02a]
-* [`layout: fit` with 2 children][02b]
-* [`layout: card` with 3 children][03]
-* [`Ext.TabPanel` with 3 children][04a]
-* [`Ext.TabPanel` with customized card switch transition][04b]
-* [`Ext.Carousel` with 3 children][05a]
-* [`Ext.Carousel` with `direction: 'vertical'`][05b]
-* [`layout: vbox`][06a]
-* [`layout: vbox` with `pack: 'center'`][06b]
-* [`layout: vbox` with `defaults: {flex: 1}`][06c]
-* [`layout: hbox` with `defaults: {flex: 1}`][06d]
-* [Traffic light carousels][07]
-* [Exquisite corpse game][08a]
-* [Exquisite corpse game with credits][08b]
-* [Exquisite corpse game with docked credits][08c]
+* [`layout: auto`][01a] ([view diff][00-01a])
+* [`layout: auto` with 'lorem ipsum'][01b] ([view diff][01a-01b])
+* [`layout: fit` with 1 child component][02a] ([view diff][01b-02a])
+* [`layout: fit` with 2 children][02b] ([view diff][02a-02b])
+* [`layout: card` with 3 children][03] ([view diff][02b-03])
+* [`Ext.TabPanel` with 3 children][04a] ([view diff][03-04a])
+* [`Ext.TabPanel` with customized card switch transition][04b] ([view diff][04a-04b])
+* [`Ext.Carousel` with 3 children][05a] ([view diff][04b-05a])
+* [`Ext.Carousel` with `direction: 'vertical'`][05b] ([view diff][05a-05b])
+* [`layout: vbox`][06a] ([view diff][05b-06a])
+* [`layout: vbox` with `pack: 'center'`][06b] ([view diff][06a-06b])
+* [`layout: vbox` with `defaults: {flex: 1}`][06c] ([view diff][06b-06c])
+* [`layout: hbox` with `defaults: {flex: 1}`][06d] ([view diff][06c-06d])
+* [Traffic light carousels][07] ([view diff][06d-07])
+* [Exquisite corpse game][08a] ([view diff][07-08a])
+* [Exquisite corpse game with credits][08b] ([view diff][08a-08b])
+* [Exquisite corpse game with docked credits][08c] ([view diff][08b-08c])
 
 ## Using this repository to follow the screencast
 
@@ -68,3 +68,21 @@ By default, the git clone command will only create the master branch locally. If
 [08a]:  https://github.com/senchalearn/Exquisite-layouts/tree/08a_exquisite_corpse
 [08b]:  https://github.com/senchalearn/Exquisite-layouts/tree/08b_exquisite_corpse
 [08c]:  https://github.com/senchalearn/Exquisite-layouts/tree/08c_exquisite_corpse
+
+[00-01a]: https://github.com/senchalearn/Exquisite-layouts/compare/00_blank_slate...01a_auto_layout
+[01a-01b]: https://github.com/senchalearn/Exquisite-layouts/compare/01a_auto_layout...01b_auto_layout
+[01b-02a]: https://github.com/senchalearn/Exquisite-layouts/compare/01b_auto_layout...02a_fit_layout
+[02a-02b]: https://github.com/senchalearn/Exquisite-layouts/compare/02a_fit_layout...02b_fit_layout
+[02b-03]: https://github.com/senchalearn/Exquisite-layouts/compare/02b_fit_layout...03_card_layout
+[03-04a]: https://github.com/senchalearn/Exquisite-layouts/compare/03_card_layout...04a_tab_panel
+[04a-04b]: https://github.com/senchalearn/Exquisite-layouts/compare/04a_tab_panel...04b_tab_panel
+[04b-05a]: https://github.com/senchalearn/Exquisite-layouts/compare/04b_tab_panel...05a_carousel
+[05a-05b]: https://github.com/senchalearn/Exquisite-layouts/compare/05a_carousel...05b_carousel
+[05b-06a]: https://github.com/senchalearn/Exquisite-layouts/compare/05b_carousel...06a_box_layout
+[06a-06b]: https://github.com/senchalearn/Exquisite-layouts/compare/06a_box_layout...06b_box_layout
+[06b-06c]: https://github.com/senchalearn/Exquisite-layouts/compare/06b_box_layout...06c_box_layout
+[06c-06d]: https://github.com/senchalearn/Exquisite-layouts/compare/06c_box_layout...06d_box_layout
+[06d-07]: https://github.com/senchalearn/Exquisite-layouts/compare/06d_box_layout...07_traffic_light_carousel
+[07-08a]: https://github.com/senchalearn/Exquisite-layouts/compare/07_traffic_light_carousel...08a_exquisite_corpse
+[08a-08b]: https://github.com/senchalearn/Exquisite-layouts/compare/08a_exquisite_corpse...08b_exquisite_corpse
+[08b-08c]: https://github.com/senchalearn/Exquisite-layouts/compare/08b_exquisite_corpse...08c_exquisite_corpse
